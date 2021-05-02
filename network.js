@@ -8,8 +8,9 @@ export default {
   website: 'https://cosmos.network',
   // apiURL: 'http://localhost:8010/proxy',
   apiURL: 'https://api.cosmos.network',
-  rpcURL: 'https://rpc.cosmos.network',
-  minBlockHeight: 5200792, // actually 5200791, but it has the wrong block time.
+  //rpcURL: 'https://rpc.cosmos.network',
+  rpcURL: 'https://grpc.cosmos.network',
+  minBlockHeight: 5200892, // actually 5200791, but it has the wrong block time.
   stakingDenom: 'ATOM',
   coinLookup: [
     {
