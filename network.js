@@ -7,9 +7,10 @@ export default {
   logo: `logo.svg`,
   website: 'https://cosmos.network',
   // apiURL: 'http://localhost:8010/proxy',
-  apiURL: 'https://api.cosmos.network',
+  //apiURL: 'https://api.cosmos.network',
+  apiURL: 'http://cosmos.decentralizehk.org:1317',
   //rpcURL: 'https://rpc.cosmos.network',
-  rpcURL: 'https://grpc.cosmos.network',
+  rpcURL: 'https://cosmos.decentralizehk.org',
   minBlockHeight: 5200892, // actually 5200791, but it has the wrong block time.
   stakingDenom: 'ATOM',
   coinLookup: [
