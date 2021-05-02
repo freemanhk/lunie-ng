@@ -102,7 +102,7 @@ export const actions = {
         'notifications/add',
         {
           type: 'danger',
-          message: 'Getting block failed:' + err.message,
+          message: 'Getting block failed:' + err.message + " " + err.stack,
         },
         { root: true }
       )
